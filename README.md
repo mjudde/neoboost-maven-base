@@ -1,4 +1,4 @@
-[# neoboost-maven-base
+# neoboost-maven-base
 Projet pour le boost sur les bases de maven.
 
 Projet maven minimaliste qui permet de se familiariser avec :
