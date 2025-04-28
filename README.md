@@ -37,7 +37,7 @@ Voici la structure d'un projet maven basique. Par défaut les plugins (compiler,
   + `test` (Le code des tests)
     + `java` (Sources java)
     + `resources` (Resources)
-+ `target` (Sortie du projet)
++ `target` (Les sortie du build)
   + `classes` (Ressources et classes compilées projet en lui-même)
   + `test-classes` (Ressources et classes compilées des tests)
 
