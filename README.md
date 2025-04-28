@@ -5,7 +5,7 @@ Projet maven minimaliste qui permet de se familiariser avec :
 - la structure de base d'un projet maven
 - le cycle de vie maven et les plugins configurés par défaut ([Documentation maven sur le cycle de vie](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html))
 
-## Point important : 
+## Points importants : 
 - Identifiant du module
   + `groupId`* : id du groupe de projet. Correspond au dossier dans lequel sera stocké le(s) artifact(s) produits.
   + `artifactId`* : id du projet dans son groupe
