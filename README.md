@@ -27,6 +27,20 @@ Projet maven minimaliste qui permet de se familiariser avec :
     + Un dépendance à utiliser dans le code du projet
     + Une dépendance pour pouvoir faire des tests unitaires junit 5
 
+## Structure d'un projet minimaliste
+Voici la structure d'un projet maven basique. Par défaut les plugins (compiler, resources...) vont utiliser ces dossiers là.
+
++ `src` (Les entrées du build)
+  + `main` (Le code du projet en lui-même)
+    + `java` (Sources java)
+    + `resources` (Resources)
+  + `test` (Le code des tests)
+    + `java` (Sources java)
+    + `resources` (Resources)
++ `target` (Sortie du projet)
+  + `classes` (Ressources et classes compilées projet en lui-même)
+  + `test-classes` (Ressources et classes compilées des tests)
+
 ## Exécution du build
 
 Si on lance la commande mvn clean install les plugins configurés par défaut (Voir la doc) vont s'exécuter les uns à la suite des  autres.
